@@ -15,3 +15,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "ComposePreperations"
 include(":app")
+include(":mathgame")
