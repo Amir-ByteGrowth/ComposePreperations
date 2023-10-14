@@ -2,6 +2,7 @@ package com.example.composepreperations.widgets
 
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.wrapContentSize
+import androidx.compose.foundation.rememberScrollState
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ArrowBack
 import androidx.compose.material3.ExperimentalMaterial3Api
@@ -14,9 +15,11 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.style.TextAlign
 
+
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun MyAppBar(title: String, onBackPressed: () -> Unit) {
+
     TopAppBar(title = {
         Text(
             text = title,
@@ -29,7 +32,7 @@ fun MyAppBar(title: String, onBackPressed: () -> Unit) {
         )
     },
         navigationIcon = {
-            IconButton(onClick = onBackPressed) {
+            IconButton(onClick = {onBackPressed.invoke()}) {
                 Icon(
                     Icons.Filled.ArrowBack,
                     contentDescription = "localizedString"
