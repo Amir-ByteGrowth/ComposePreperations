@@ -53,3 +53,4 @@ private suspend fun fetchData(): List<String> {
     delay(2000)
     return listOf("Item 1", "Item 2", "Item 3", "Item 4", "Item 5")
 }
+

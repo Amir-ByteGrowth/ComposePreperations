@@ -11,6 +11,8 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.sideeffects.ui.theme.ComposePreperationsTheme
+import com.example.sideeffects.widgets.ComposableSide1
+import com.example.sideeffects.widgets.LaunchedEffectP1
 import com.example.sideeffects.widgets.LaunchedSideEffectWidget
 import com.example.sideeffects.widgets.SideEffectFreeWidget
 
@@ -24,7 +26,8 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    LaunchedSideEffectWidget()
+//                    LaunchedEffectP1()
+                    ComposableSide1()
                 }
             }
         }
