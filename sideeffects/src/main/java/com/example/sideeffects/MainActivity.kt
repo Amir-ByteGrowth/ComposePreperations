@@ -17,6 +17,8 @@ import com.example.sideeffects.widgets.LaunchedSideEffectWidget
 import com.example.sideeffects.widgets.RememberCoroutineP1
 import com.example.sideeffects.widgets.RememberUpdatedStatePractice
 import com.example.sideeffects.widgets.SideEffectFreeWidget
+import com.example.sideeffects.widgets.ToastSideEffectExample
+import com.example.sideeffects.widgets.ToastSideEffectExampleWithLaunch
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -29,7 +31,9 @@ class MainActivity : ComponentActivity() {
                     color = MaterialTheme.colorScheme.background
                 ) {
 //                    LaunchedEffectP1()
-                    RememberUpdatedStatePractice()
+//                    RememberUpdatedStatePractice()
+//                    ToastSideEffectExample()
+                    ToastSideEffectExampleWithLaunch()
                 }
             }
         }
