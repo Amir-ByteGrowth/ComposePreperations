@@ -15,6 +15,7 @@ import com.example.sideeffects.widgets.ComposableSide1
 import com.example.sideeffects.widgets.LaunchedEffectP1
 import com.example.sideeffects.widgets.LaunchedSideEffectWidget
 import com.example.sideeffects.widgets.RememberCoroutineP1
+import com.example.sideeffects.widgets.RememberUpdatedStatePractice
 import com.example.sideeffects.widgets.SideEffectFreeWidget
 
 class MainActivity : ComponentActivity() {
@@ -28,7 +29,7 @@ class MainActivity : ComponentActivity() {
                     color = MaterialTheme.colorScheme.background
                 ) {
 //                    LaunchedEffectP1()
-                    RememberCoroutineP1()
+                    RememberUpdatedStatePractice()
                 }
             }
         }
