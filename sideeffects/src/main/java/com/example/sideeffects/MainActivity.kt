@@ -12,6 +12,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.sideeffects.ui.theme.ComposePreperationsTheme
 import com.example.sideeffects.widgets.ComposableSide1
+import com.example.sideeffects.widgets.CoroutineScopePractice
 import com.example.sideeffects.widgets.LaunchEffectWithApiCalling
 import com.example.sideeffects.widgets.LaunchedEffectP1
 import com.example.sideeffects.widgets.LaunchedSideEffectWidget
@@ -35,7 +36,8 @@ class MainActivity : ComponentActivity() {
 //                    RememberUpdatedStatePractice()
 //                    ToastSideEffectExample()
 //                    ToastSideEffectExampleWithLaunch()
-                    LaunchEffectWithApiCalling()
+//                    LaunchEffectWithApiCalling()
+                    CoroutineScopePractice()
                 }
             }
         }
