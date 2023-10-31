@@ -11,8 +11,10 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.sideeffects.ui.theme.ComposePreperationsTheme
+import com.example.sideeffects.widgets.CheckForDerivedStates
 import com.example.sideeffects.widgets.ComposableSide1
 import com.example.sideeffects.widgets.CoroutineScopePractice
+import com.example.sideeffects.widgets.DerivedStateExample
 import com.example.sideeffects.widgets.DisposableEffectPractice
 import com.example.sideeffects.widgets.LaunchEffectWithApiCalling
 import com.example.sideeffects.widgets.LaunchedEffectP1
@@ -39,7 +41,10 @@ class MainActivity : ComponentActivity() {
 //                    ToastSideEffectExampleWithLaunch()
 //                    LaunchEffectWithApiCalling()
 //                    CoroutineScopePractice()
-                    DisposableEffectPractice()
+//                    DisposableEffectPractice()
+//                    CheckForDerivedStates()
+
+                    DerivedStateExample()
                 }
             }
         }
