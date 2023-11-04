@@ -22,6 +22,7 @@ import com.example.sideeffects.widgets.LaunchedSideEffectWidget
 import com.example.sideeffects.widgets.RememberCoroutineP1
 import com.example.sideeffects.widgets.RememberUpdatedStatePractice
 import com.example.sideeffects.widgets.SideEffectFreeWidget
+import com.example.sideeffects.widgets.SnapShotFlowPractice
 import com.example.sideeffects.widgets.ToastSideEffectExample
 import com.example.sideeffects.widgets.ToastSideEffectExampleWithLaunch
 
@@ -44,7 +45,8 @@ class MainActivity : ComponentActivity() {
 //                    DisposableEffectPractice()
 //                    CheckForDerivedStates()
 
-                    DerivedStateExample()
+//                    DerivedStateExample()
+                    SnapShotFlowPractice()
                 }
             }
         }
