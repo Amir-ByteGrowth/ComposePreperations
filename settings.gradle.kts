@@ -17,3 +17,4 @@ rootProject.name = "ComposePreperations"
 include(":app")
 include(":mathgame")
 include(":sideeffects")
+include(":jetpackcomposebasiccodelab")
