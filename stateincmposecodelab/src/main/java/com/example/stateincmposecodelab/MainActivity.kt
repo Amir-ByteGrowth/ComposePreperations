@@ -12,6 +12,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.stateincmposecodelab.ui.theme.ComposePreperationsTheme
+import com.example.stateincmposecodelab.wellnessscreenwithviewmodel.WellnessScreenWithViewModel
 import com.example.stateincmposecodelab.widgets.StateFullCounter
 import com.example.stateincmposecodelab.widgets.WellnessCounterScreen
 import com.example.stateincmposecodelab.widgets.WellnessTasksList
@@ -29,10 +30,12 @@ class MainActivity : ComponentActivity() {
 //                    WellnessCounterScreen()
 
 //                    StateFullCounter()
-                    Column {
-                        StateFullCounter()
-                        WellnessTasksList()
-                    }
+//                    Column {
+//                        StateFullCounter()
+//                        WellnessTasksList()
+//                    }
+
+                    WellnessScreenWithViewModel()
 
                 }
             }
